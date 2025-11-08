@@ -1,0 +1,30 @@
+{
+  "name": "mev-pumpbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/node": "^24.10.0",
+    "@types/node-fetch": "^2.6.13",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@solana/spl-token": "^0.4.14",
+    "@solana/web3.js": "^1.98.4",
+    "better-sqlite3": "^12.4.1",
+    "bs58": "^6.0.0",
+    "dotenv": "^17.2.3",
+    "pino": "^10.1.0",
+    "ws": "^8.18.3"
+  }
+}
