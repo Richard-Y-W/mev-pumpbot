@@ -10,6 +10,7 @@ import { simulateTrade } from "./trader";
 import { insertDecision } from "./utils/store";
 import { runStrategyLoop } from "./strategy";
 
+
 const conn = new Connection(process.env.RPC_URL_PRIMARY!, "confirmed");
 const DRY_RUN = process.env.DRY_RUN === "true";
 const SCORE_THRESHOLD = 0.7;
